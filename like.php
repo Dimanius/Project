@@ -1,8 +1,6 @@
 <?php
 
-/** Данные для подключения к Базе Данных */
-include "base.php";
-/** Получаем наш ID статьи из запроса */
+
 $id = intval($_POST['id']);
 $ip = strval($_POST['ip']);
 $count = 0;
